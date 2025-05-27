@@ -1,10 +1,5 @@
+# EX. NO: 4
 # VIGENERE-CIPHER
-## EX. NO: 4
- 
-
-## IMPLEMETATION OF VIGENERE CIPHER
- 
-
 ## AIM:
 
 To implement the Vigenere Cipher substitution technique using C program.
@@ -29,7 +24,8 @@ STEP-7: The junction character where these two meet forms the cipher character.
 STEP-8: Repeat the above steps to generate the entire cipher text.
 
 
-## PROGRAM
+## PROGRAM:
+```
 def generate_key(text, key):
     key = list(key)
     if len(key) == len(text):
@@ -74,6 +70,7 @@ encrypted = vigenere_encrypt(plaintext, key)
 decrypted = vigenere_decrypt(encrypted, key)
 print(f"Encrypted: {encrypted}")
 print(f"Decrypted: {decrypted}")
+```
 
 
 ## OUTPUT
